@@ -1,4 +1,4 @@
-window.onhashchange = e => {
+let chg = e => {
     if(location.hash==="#S-Lesson-index"){
         let src = chrome.runtime.getURL('catchHomework.js');
         let _script = document.querySelector(`head script[src="${src}"]`);
@@ -10,3 +10,6 @@ window.onhashchange = e => {
         document.getElementsByTagName('head')[0].appendChild(s);
     }
 }
+
+window.onhashchange = chg;
+window.onload = chg;
