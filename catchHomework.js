@@ -13,6 +13,6 @@ try {
       clearInterval(a);
     }
   },200)
-} catch (error) {
-  console.err(error);
+} catch (err) {
+  console.error(err);
 }
