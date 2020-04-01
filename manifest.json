@@ -1,0 +1,30 @@
+{
+    "name": "教学立方辅助工具-Sky-version",
+    "version": "1.0",
+    "description": "妙啊！",
+
+    "background": {
+      "persistent": false,
+      "scripts": ["background.js"],
+      "all_frames":false
+    },
+    "browser_action": {
+      "default_icon": "logo.png",
+      "icons":"logo.png"
+    },
+    "web_accessible_resources": [
+      "catchHomework.js"
+    ],
+    "content_scripts": [
+      {
+        "matches":["https://teaching.applysquare.com/*"],
+        "css":["mystyle.css"]
+      },
+      {
+        "matches":["https://teaching.applysquare.com/S/Course/index/cid/*"],
+        "js":["myscript.js"]
+      }
+    ],
+    "permissions": ["activeTab"],
+    "manifest_version": 2
+}
