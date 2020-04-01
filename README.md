@@ -17,5 +17,5 @@
 
 ### v1.0
 
-+ 在之前某大佬的版本(https://github.com/LadderOperator/TeachingSquareImagePreview)基础上删去了面向助教的部分
++ 在之前某大佬的版本 (https://github.com/LadderOperator/TeachingSquareImagePreview) 的基础上删去了面向助教的部分
 + 完善面向学生部分
