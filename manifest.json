@@ -2,12 +2,7 @@
     "name": "教学立方辅助工具-Sky-version",
     "version": "1.0",
     "description": "妙啊！",
-
-    "background": {
-      "persistent": false,
-      "scripts": ["background.js"],
-      "all_frames":false
-    },
+    
     "browser_action": {
       "default_icon": "logo.png",
       "icons":"logo.png"

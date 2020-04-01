@@ -1,8 +1,5 @@
 function catchHomework(){
-  var resource = lessonindex.lesson_list
-  for (let ri = 0; ri < resource.length; ri++) {
-    resource[ri].can_download = 1;
-  }
+  lessonindex.lesson_list.forEach(resource => resource.can_download = 1)
 };
 
 try {
